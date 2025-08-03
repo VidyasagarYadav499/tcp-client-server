@@ -11,6 +11,10 @@ This is a simple TCP client-server program written in C to demonstrate the basic
 
 ## How to run locally on your machine?
 
+### Requirements
+- Unix like OS (Linux, BSD, MacOS), NOT Windows but it'll work if you use WSL.
+- Basic understanding of C language and `gcc`.
+
 ### Step 1: Compile the Client Program
 
 ```
@@ -57,3 +61,4 @@ In a second terminal, run the compiled client and pass the server IP and port as
 
 - [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/)
 - [Linux man pages for info on network syscalls like `socket` `connect` etc](https://man7.org/linux/man-pages/)
+
